@@ -1,0 +1,55 @@
+---
+layout: base.njk
+---
+
+{% set allStories = collections.stories | reverse %}
+{% set prevStory = allStories | getPrevStory(page.url) %}
+{% set nextStory = allStories | getNextStory(page.url) %}
+
+<div class="story-page">
+
+  <div class="story-page-header">
+    <div class="story-page-meta">
+      {{ category | capitalize }}
+      {% if subcategory %}&middot; {{ subcategory }}{% endif %}
+      &middot; {{ date | dateFormat }}
+    </div>
+    <h1 class="story-page-title">{{ title }}</h1>
+    {% if subtitle %}<p class="story-page-subtitle">{{ subtitle }}</p>{% endif %}
+  </div>
+
+  <div class="story-page-hero">
+    <div class="story-thumb story-thumb-gradient-{{ gradient | default("1") }}">
+      <span class="story-thumb-icon">{{ icon | default("✍️") }}</span>
+    </div>
+  </div>
+
+  <div class="story-page-content">
+    {{ content | safe }}
+  </div>
+
+  <div class="story-nav">
+    {% if prevStory %}
+      <a href="{{ prevStory.url }}" class="story-nav-link">
+        <span class="story-nav-label">Previous Story</span>
+        <span class="story-nav-title">{{ prevStory.data.title }}</span>
+      </a>
+    {% else %}
+      <div></div>
+    {% endif %}
+
+    {% if nextStory %}
+      <a href="{{ nextStory.url }}" class="story-nav-link next">
+        <span class="story-nav-label">Next Story</span>
+        <span class="story-nav-title">{{ nextStory.data.title }}</span>
+      </a>
+    {% else %}
+      <div></div>
+    {% endif %}
+  </div>
+
+  <div style="text-align: center; margin-bottom: 48px;">
+    <a href="/blog/" class="story-back-link">&larr; Back to All Stories</a>
+  </div>
+
+</div>

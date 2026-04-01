@@ -1,0 +1,82 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Where uploaded images are stored in the repo and served from
+media_folder: "src/images"
+public_folder: "/images"
+
+collections:
+  - name: "stories"
+    label: "Stories"
+    folder: "src/stories"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        date_format: "MMMM DD, YYYY"
+        time_format: false
+
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Fiction",      value: "fiction" }
+          - { label: "Series",       value: "series" }
+          - { label: "Technology",   value: "technology" }
+          - { label: "Poetry",       value: "poetry" }
+          - { label: "Personal",     value: "personal" }
+          - { label: "Reflections",  value: "reflections" }
+
+      - label: "Sub-category"
+        name: "subcategory"
+        widget: "string"
+        required: false
+        hint: "Optional — e.g. Romance, Thriller, Bitcoin, AI"
+
+      - label: "Excerpt"
+        name: "excerpt"
+        widget: "text"
+        hint: "Short description shown on story cards (1–2 sentences)"
+
+      - label: "Subtitle"
+        name: "subtitle"
+        widget: "string"
+        required: false
+        hint: "Shown in italic below the title on the story page"
+
+      - label: "Card Icon (emoji)"
+        name: "icon"
+        widget: "string"
+        default: "✍️"
+        hint: "Emoji shown on the story card thumbnail (e.g. ✍️ ❤️ 🤖 ✨)"
+
+      - label: "Card Gradient"
+        name: "gradient"
+        widget: "select"
+        default: "1"
+        hint: "Background colour of the story card thumbnail"
+        options:
+          - { label: "Lilac",        value: "1" }
+          - { label: "Sky Blue",     value: "2" }
+          - { label: "Lilac → Sky",  value: "3" }
+          - { label: "Pale Sky",     value: "4" }
+          - { label: "Pale Lilac",   value: "5" }
+          - { label: "Indigo",       value: "6" }
+
+      - label: "SEO Description"
+        name: "description"
+        widget: "text"
+        required: false
+        hint: "Optional — overrides the excerpt for search engine previews"
+
+      - label: "Body"
+        name: "body"
+        widget: "markdown"

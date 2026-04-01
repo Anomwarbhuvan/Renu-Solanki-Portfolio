@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if title %}{{ title }} — Lettersbyteller{% else %}Lettersbyteller — Where Letters Create Magic!!{% endif %}</title>
+  <meta name="description" content="{{ description if description else 'A storyteller by heart and a writer by trade. Explore stories, reflections, and the art of writing by Renu Solanki.' }}">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="container">
+      <a href="/" class="nav-logo">Letters<span>by</span>teller</a>
+      <ul class="nav-links">
+        <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+        <li><a href="/blog/" {% if page.url == "/blog/" or "stories" in page.url %}class="active"{% endif %}>Stories</a></li>
+        <li><a href="/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
+        <li><a href="/contact/" {% if page.url == "/contact/" %}class="active"{% endif %}>Contact</a></li>
+      </ul>
+      <button class="nav-hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  {{ content | safe }}
+
+  <footer class="footer">
+    <div class="container">
+      <a href="/" class="footer-logo">Letters<span>by</span>teller</a>
+      <div class="footer-social">
+        <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:hello@lettersbyteller.com">Email</a>
+      </div>
+      <div class="footer-copy">&copy; 2026 Lettersbyteller. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", function (user) {
+        if (!user) {
+          window.netlifyIdentity.on("login", function () {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>

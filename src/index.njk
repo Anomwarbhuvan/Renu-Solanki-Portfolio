@@ -1,0 +1,87 @@
+---
+layout: base.njk
+permalink: /
+---
+
+<section class="hero">
+  <div class="hero-subtitle">A storyteller's portfolio</div>
+  <h1>Lettersbyteller</h1>
+  <div class="hero-tagline">"Where letters create Magic!!"</div>
+  <p class="hero-description">
+    A storyteller by heart and a writer by trade. Exploring the power of language, sharing creative journeys, and inspiring the art of writing.
+  </p>
+  <a href="/blog/" class="btn-primary">Explore Stories</a>
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <div class="hero-scroll-line"></div>
+  </div>
+</section>
+
+<section class="stories" style="background: var(--white);">
+  <div class="container">
+    <div class="section-label">Featured Stories</div>
+    <h2 class="section-title">Words That Linger</h2>
+    <p class="section-desc">A collection of stories, reflections, and explorations penned with love and curiosity.</p>
+
+    <div class="stories-grid">
+      {% for story in collections.stories | reverse | limit(6) %}
+        {% set grad = story.data.gradient if story.data.gradient else ((loop.index0 % 6) + 1) %}
+        <a href="{{ story.url }}" class="story-card" data-category="{{ story.data.category }}">
+          <div class="story-thumb story-thumb-gradient-{{ grad }}">
+            <span class="story-category">{{ story.data.category | capitalize }}</span>
+            <span class="story-thumb-icon">{{ story.data.icon | default("✍️") }}</span>
+          </div>
+          <div class="story-content">
+            <div class="story-date">{{ story.date | dateFormat }}</div>
+            <h3 class="story-title">{{ story.data.title }}</h3>
+            <p class="story-excerpt">{{ story.data.excerpt }}</p>
+            <span class="story-read-more">Read Story</span>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+
+    <div style="text-align: center; margin-top: 56px;">
+      <a href="/blog/" class="btn-outline">View All Stories</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="about-preview">
+      <div class="about-image">
+        <span class="about-image-placeholder">&#128100;</span>
+      </div>
+      <div>
+        <div class="section-label">About the Writer</div>
+        <h2 class="section-title">Renu Solanki</h2>
+        <p class="section-desc">
+          A content creator and storyteller who believes in the transformative power of words. Through Lettersbyteller, she explores language, shares her creative journey, and inspires others to find their voice.
+        </p>
+        <blockquote class="about-quote">
+          "I am a storyteller by heart and a writer by trade."
+        </blockquote>
+        <a href="/about/" class="btn-text">Read Full Story</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter">
+  <div class="container">
+    <div class="newsletter-inner">
+      <div class="newsletter-icon">&#9993;</div>
+      <div class="section-label">Stay Connected</div>
+      <h2 class="section-title">Letters to Your Inbox</h2>
+      <p class="section-desc">
+        Subscribe for weekly stories, reflections, and writing inspiration delivered every Tuesday.
+      </p>
+      <form class="newsletter-form">
+        <input type="email" class="newsletter-input" placeholder="Enter your email address" required>
+        <button type="submit" class="newsletter-btn">Subscribe</button>
+      </form>
+      <p class="newsletter-note">No spam, ever. Unsubscribe anytime.</p>
+    </div>
+  </div>
+</section>

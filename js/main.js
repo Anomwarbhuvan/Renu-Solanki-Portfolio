@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
       const btn = contactForm.querySelector('.btn-primary');
       btn.textContent = 'Message Sent!';
-      btn.style.background = '#6B8E6B';
+      btn.style.background = '#22C4F0';
       setTimeout(() => {
         btn.textContent = 'Send Message';
         btn.style.background = '';
