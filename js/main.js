@@ -53,21 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Contact form handling
-  const contactForm = document.querySelector('.contact-form');
-  if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const btn = contactForm.querySelector('.btn-primary');
-      btn.textContent = 'Message Sent!';
-      btn.style.background = '#22C4F0';
-      setTimeout(() => {
-        btn.textContent = 'Send Message';
-        btn.style.background = '';
-        contactForm.reset();
-      }, 3000);
-    });
-  }
+  // Contact form — handled by Netlify Forms (no JS needed for submission)
 
   // Newsletter form handling
   const newsletterForm = document.querySelector('.newsletter-form');

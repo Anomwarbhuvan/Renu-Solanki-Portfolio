@@ -848,6 +848,18 @@ section { padding: 100px 0; }
   margin-bottom: 32px;
 }
 
+a.contact-detail {
+  transition: transform 0.2s;
+}
+
+a.contact-detail:hover {
+  transform: translateX(4px);
+}
+
+a.contact-detail:hover .contact-detail-text strong {
+  color: var(--accent);
+}
+
 .contact-detail {
   display: flex;
   align-items: center;

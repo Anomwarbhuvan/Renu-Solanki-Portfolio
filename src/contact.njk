@@ -21,20 +21,27 @@ permalink: /contact/
         <p>
           Whether it's about writing, storytelling, collaborations, or just a friendly chat about the power of words — my inbox is always open. Drop me a message and I'll get back to you as soon as I can.
         </p>
-        <div class="contact-detail">
+        <a href="mailto:renusolanki23@gmail.com" class="contact-detail" target="_blank" rel="noopener">
           <div class="contact-detail-icon">&#9993;</div>
           <div class="contact-detail-text">
             <strong>Email</strong>
-            hello@lettersbyteller.com
+            renusolanki23@gmail.com
           </div>
-        </div>
-        <div class="contact-detail">
+        </a>
+        <a href="https://instagram.com/officiallyahotmess" class="contact-detail" target="_blank" rel="noopener">
           <div class="contact-detail-icon">&#128247;</div>
           <div class="contact-detail-text">
             <strong>Instagram</strong>
-            @lettersbyteller
+            @officiallyahotmess
           </div>
-        </div>
+        </a>
+        <a href="https://www.linkedin.com/in/renu-solanki-830b40133/" class="contact-detail" target="_blank" rel="noopener">
+          <div class="contact-detail-icon">&#128188;</div>
+          <div class="contact-detail-text">
+            <strong>LinkedIn</strong>
+            Renu Solanki
+          </div>
+        </a>
         <div class="contact-detail">
           <div class="contact-detail-icon">&#128204;</div>
           <div class="contact-detail-text">
@@ -44,24 +51,25 @@ permalink: /contact/
         </div>
       </div>
 
-      <form class="contact-form">
+      <form class="contact-form" name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
         <div class="form-row">
           <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" id="name" placeholder="Your name" required>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
           </div>
           <div class="form-group">
             <label for="email">Email</label>
-            <input type="email" id="email" placeholder="your@email.com" required>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required>
           </div>
         </div>
         <div class="form-group">
           <label for="subject">Subject</label>
-          <input type="text" id="subject" placeholder="What's this about?">
+          <input type="text" id="subject" name="subject" placeholder="What's this about?">
         </div>
         <div class="form-group">
           <label for="message">Message</label>
-          <textarea id="message" placeholder="Tell me what's on your mind..." required></textarea>
+          <textarea id="message" name="message" placeholder="Tell me what's on your mind..." required></textarea>
         </div>
         <button type="submit" class="btn-primary" style="align-self: flex-start;">Send Message</button>
       </form>
