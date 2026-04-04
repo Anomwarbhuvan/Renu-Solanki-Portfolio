@@ -1,0 +1,68 @@
+---
+pagination:
+  data: categories
+  size: 1
+  alias: cat
+permalink: /blog/{{ cat.slug }}/
+layout: base.njk
+eleventyComputed:
+  title: "{{ cat.name }} Stories"
+  description: "{{ cat.description }}"
+---
+
+<div class="page-header" style="border-bottom: none;">
+  <div class="container">
+    <div class="section-label">Stories</div>
+    <h1 class="section-title">{{ cat.name }}</h1>
+    <p class="section-desc">{{ cat.description }}</p>
+  </div>
+</div>
+
+{% include "category-nav.njk" %}
+
+<section class="blog-section">
+  <div class="container">
+
+    {% if cat.subcategories | length %}
+    <div class="blog-filters">
+      <button class="blog-filter active" data-category="all">All</button>
+      {% for sub in cat.subcategories %}
+        <button class="blog-filter" data-category="{{ sub.slug }}">{{ sub.name }}</button>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% set catStories = collections.stories | reverse | filterByCategory(cat.slug) %}
+
+    {% if catStories | length %}
+    <div class="stories-grid">
+      {% for story in catStories %}
+        {% set grad = story.data.gradient if story.data.gradient else ((loop.index0 % 6) + 1) %}
+        <a href="{{ story.url }}" class="story-card" data-category="{{ story.data.subcategory | default('none') }}">
+          <div class="story-thumb story-thumb-gradient-{{ grad }}">
+            <span class="story-category">
+              {% if story.data.subcategory %}
+                {{ story.data.subcategory | subcategoryLabel(categories) }}
+              {% else %}
+                {{ cat.name }}
+              {% endif %}
+            </span>
+            <span class="story-thumb-icon">{{ story.data.icon | default("✍️") }}</span>
+          </div>
+          <div class="story-content">
+            <div class="story-date">{{ story.date | dateFormat }}</div>
+            <h3 class="story-title">{{ story.data.title }}</h3>
+            <p class="story-excerpt">{{ story.data.excerpt }}</p>
+            <span class="story-read-more">Read Story</span>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="empty-state">
+      <p>No stories in this category yet. Check back soon!</p>
+    </div>
+    {% endif %}
+
+  </div>
+</section>

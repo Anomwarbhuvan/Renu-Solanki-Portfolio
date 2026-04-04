@@ -28,18 +28,32 @@ collections:
         name: "category"
         widget: "select"
         options:
-          - { label: "Fiction",      value: "fiction" }
-          - { label: "Series",       value: "series" }
-          - { label: "Technology",   value: "technology" }
-          - { label: "Poetry",       value: "poetry" }
-          - { label: "Personal",     value: "personal" }
-          - { label: "Reflections",  value: "reflections" }
+          - { label: "Tech",                    value: "tech" }
+          - { label: "Edtech",                  value: "edtech" }
+          - { label: "MarTech",                 value: "martech" }
+          - { label: "Educational/Study Abroad", value: "educational" }
+          - { label: "Fiction",                 value: "fiction" }
+          - { label: "Travel & Lifestyle",      value: "travel-lifestyle" }
+          - { label: "Entertainment",           value: "entertainment" }
+          - { label: "Gastronomy",              value: "gastronomy" }
+          - { label: "Culture & Tradition",     value: "culture-tradition" }
+          - { label: "Personal Reflection",     value: "personal-reflection" }
 
       - label: "Sub-category"
         name: "subcategory"
-        widget: "string"
+        widget: "select"
         required: false
-        hint: "Optional — e.g. Romance, Thriller, Bitcoin, AI"
+        hint: "Pick a sub-category if applicable. Only Tech and Fiction have sub-categories."
+        options:
+          - { label: "— Tech —",                          value: "" }
+          - { label: "AI",                                value: "ai" }
+          - { label: "Gaming Industry",                   value: "gaming-industry" }
+          - { label: "Cybersecurity",                     value: "cybersecurity" }
+          - { label: "— Fiction —",                       value: "" }
+          - { label: "Psychological/Suspense Thriller",   value: "psychological-thriller" }
+          - { label: "Kid Fiction",                       value: "kid-fiction" }
+          - { label: "Romantic Stories",                  value: "romantic-stories" }
+          - { label: "Literary Analysis",                 value: "literary-analysis" }
 
       - label: "Excerpt"
         name: "excerpt"

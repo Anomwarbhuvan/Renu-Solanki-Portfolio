@@ -5,7 +5,7 @@ description: "Browse all stories and writings by Renu Solanki. Fiction, reflecti
 permalink: /blog/
 ---
 
-<div class="page-header">
+<div class="page-header" style="border-bottom: none;">
   <div class="container">
     <div class="section-label">The Archive</div>
     <h1 class="section-title">All Stories</h1>
@@ -13,24 +13,16 @@ permalink: /blog/
   </div>
 </div>
 
+{% include "category-nav.njk" %}
+
 <section class="blog-section">
   <div class="container">
-    <div class="blog-filters">
-      <button class="blog-filter active" data-category="all">All</button>
-      <button class="blog-filter" data-category="fiction">Fiction</button>
-      <button class="blog-filter" data-category="series">Series</button>
-      <button class="blog-filter" data-category="technology">Technology</button>
-      <button class="blog-filter" data-category="poetry">Poetry</button>
-      <button class="blog-filter" data-category="personal">Personal</button>
-      <button class="blog-filter" data-category="reflections">Reflections</button>
-    </div>
-
     <div class="stories-grid">
       {% for story in collections.stories | reverse %}
         {% set grad = story.data.gradient if story.data.gradient else ((loop.index0 % 6) + 1) %}
         <a href="{{ story.url }}" class="story-card" data-category="{{ story.data.category }}">
           <div class="story-thumb story-thumb-gradient-{{ grad }}">
-            <span class="story-category">{{ story.data.category | capitalize }}</span>
+            <span class="story-category">{{ story.data.category | categoryLabel(categories) }}</span>
             <span class="story-thumb-icon">{{ story.data.icon | default("✍️") }}</span>
           </div>
           <div class="story-content">

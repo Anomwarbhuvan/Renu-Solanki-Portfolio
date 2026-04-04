@@ -1,7 +1,8 @@
 ---
 title: "Balcony Story — Part 1"
 date: 2020-05-04
-category: series
+category: fiction
+subcategory: literary-analysis
 excerpt: Stories unfold in the most unexpected places, even from a quiet balcony overlooking a world in pause.
 subtitle: Stories from a quiet balcony
 description: Stories from a quiet balcony — where the world below becomes a canvas of human moments and fleeting connections.

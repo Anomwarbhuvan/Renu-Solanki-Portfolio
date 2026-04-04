@@ -1,0 +1,10 @@
+<div class="category-nav">
+  <div class="container">
+    <div class="category-nav-inner">
+      <a href="/blog/" class="category-nav-link {% if page.url == '/blog/' %}active{% endif %}">All</a>
+      {% for c in categories %}
+        <a href="/blog/{{ c.slug }}/" class="category-nav-link {% if page.url == '/blog/' ~ c.slug ~ '/' %}active{% endif %}">{{ c.name }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</div>

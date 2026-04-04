@@ -2,6 +2,7 @@
 title: "Her Happy Ending!"
 date: 2020-06-01
 category: fiction
+subcategory: romantic-stories
 excerpt: Sometimes the endings we don't expect become the ones we treasure most. A story about finding joy in unexpected places.
 subtitle: Finding joy in unexpected places
 description: Finding joy in unexpected places — a story about the endings we don't plan but treasure forever.

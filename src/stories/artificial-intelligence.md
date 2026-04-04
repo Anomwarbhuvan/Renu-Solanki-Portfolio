@@ -1,7 +1,8 @@
 ---
 title: Artificial Intelligence
 date: 2020-02-27
-category: technology
+category: tech
+subcategory: ai
 excerpt: Exploring the intersection of technology and humanity through a writer's lens. Where do machines end and souls begin?
 subtitle: Tech meets humanity
 description: Exploring the intersection of technology and humanity — what happens when machines begin to think, and humans begin to wonder.

@@ -2,6 +2,7 @@
 title: "Genie, Can You Make Me a Kid Again!"
 date: 2019-12-27
 category: fiction
+subcategory: kid-fiction
 excerpt: A whimsical wish that takes us on a journey through memory and innocence. What would you ask for?
 subtitle: A whimsical wish about childhood
 description: A whimsical wish about childhood — what would you ask for if a genie granted you one more day as a child?

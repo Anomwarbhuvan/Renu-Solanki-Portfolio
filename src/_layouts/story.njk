@@ -10,7 +10,7 @@ layout: base.njk
 
   <div class="story-page-header">
     <div class="story-page-meta">
-      {{ category | capitalize }}
+      {{ category | categoryLabel(categories) }}
       {% if subcategory %}&middot; {{ subcategory }}{% endif %}
       &middot; {{ date | dateFormat }}
     </div>

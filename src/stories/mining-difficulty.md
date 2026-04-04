@@ -1,7 +1,7 @@
 ---
 title: What Determines Mining Difficulty?
 date: 2020-02-26
-category: technology
+category: tech
 excerpt: Demystifying blockchain and Bitcoin mining concepts with clarity, curiosity, and a storyteller's touch.
 subtitle: Blockchain explained
 description: Demystifying blockchain mining difficulty — how networks self-regulate, and why it matters for the future of digital currency.

@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Tech",
+    "slug": "tech",
+    "description": "Exploring technology, innovation, and the digital world.",
+    "subcategories": [
+      { "name": "AI", "slug": "ai" },
+      { "name": "Gaming Industry", "slug": "gaming-industry" },
+      { "name": "Cybersecurity", "slug": "cybersecurity" }
+    ]
+  },
+  {
+    "name": "Edtech",
+    "slug": "edtech",
+    "description": "Technology meets education — transforming how we learn.",
+    "subcategories": []
+  },
+  {
+    "name": "MarTech",
+    "slug": "martech",
+    "description": "Marketing technology and the art of digital storytelling.",
+    "subcategories": []
+  },
+  {
+    "name": "Educational/Study Abroad",
+    "slug": "educational",
+    "description": "Insights on education, learning, and studying abroad.",
+    "subcategories": []
+  },
+  {
+    "name": "Fiction",
+    "slug": "fiction",
+    "description": "Stories born from imagination — where worlds come alive.",
+    "subcategories": [
+      { "name": "Psychological/Suspense Thriller", "slug": "psychological-thriller" },
+      { "name": "Kid Fiction", "slug": "kid-fiction" },
+      { "name": "Romantic Stories", "slug": "romantic-stories" },
+      { "name": "Literary Analysis", "slug": "literary-analysis" }
+    ]
+  },
+  {
+    "name": "Travel & Lifestyle",
+    "slug": "travel-lifestyle",
+    "description": "Journeys, experiences, and the art of living well.",
+    "subcategories": []
+  },
+  {
+    "name": "Entertainment",
+    "slug": "entertainment",
+    "description": "Film, music, pop culture, and the stories behind them.",
+    "subcategories": []
+  },
+  {
+    "name": "Gastronomy",
+    "slug": "gastronomy",
+    "description": "Food, flavours, and the culture of the table.",
+    "subcategories": []
+  },
+  {
+    "name": "Culture & Tradition",
+    "slug": "culture-tradition",
+    "description": "Heritage, customs, and the threads that bind communities.",
+    "subcategories": []
+  },
+  {
+    "name": "Personal Reflection",
+    "slug": "personal-reflection",
+    "description": "Thoughts, musings, and lessons from the journey within.",
+    "subcategories": []
+  }
+]

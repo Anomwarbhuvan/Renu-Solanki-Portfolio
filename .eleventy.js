@@ -20,6 +20,28 @@ module.exports = function (eleventyConfig) {
     return arr.slice(0, limit);
   });
 
+  // Filter stories by category slug
+  eleventyConfig.addFilter("filterByCategory", function (stories, categorySlug) {
+    return stories.filter((s) => s.data.category === categorySlug);
+  });
+
+  // Get display name for a category slug
+  eleventyConfig.addFilter("categoryLabel", function (slug, categories) {
+    if (!categories) return slug;
+    const cat = categories.find((c) => c.slug === slug);
+    return cat ? cat.name : slug;
+  });
+
+  // Get display name for a sub-category slug
+  eleventyConfig.addFilter("subcategoryLabel", function (slug, categories) {
+    if (!categories) return slug;
+    for (const cat of categories) {
+      const sub = cat.subcategories.find((s) => s.slug === slug);
+      if (sub) return sub.name;
+    }
+    return slug;
+  });
+
   // Prev/next story navigation (stories array should be newest-first)
   eleventyConfig.addFilter("getPrevStory", function (stories, currentUrl) {
     const idx = stories.findIndex((s) => s.url === currentUrl);

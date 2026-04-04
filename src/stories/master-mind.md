@@ -2,6 +2,7 @@
 title: Master Mind
 date: 2021-02-14
 category: fiction
+subcategory: psychological-thriller
 excerpt: A tale of intellect and intrigue that keeps you guessing until the very end. What happens when the mind becomes both weapon and shield?
 subtitle: A tale of intellect and strategy
 description: A tale of intellect and strategy where every move matters and nothing is as it seems.

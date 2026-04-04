@@ -28,7 +28,7 @@ permalink: /
         {% set grad = story.data.gradient if story.data.gradient else ((loop.index0 % 6) + 1) %}
         <a href="{{ story.url }}" class="story-card" data-category="{{ story.data.category }}">
           <div class="story-thumb story-thumb-gradient-{{ grad }}">
-            <span class="story-category">{{ story.data.category | capitalize }}</span>
+            <span class="story-category">{{ story.data.category | categoryLabel(categories) }}</span>
             <span class="story-thumb-icon">{{ story.data.icon | default("✍️") }}</span>
           </div>
           <div class="story-content">
