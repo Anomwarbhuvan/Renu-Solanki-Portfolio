@@ -6,13 +6,13 @@ pagination:
 permalink: /blog/{{ cat.slug }}/
 layout: base.njk
 eleventyComputed:
-  title: "{{ cat.name }} Stories"
+  title: "{{ cat.name }} Blogs"
   description: "{{ cat.description }}"
 ---
 
 <div class="page-header" style="border-bottom: none;">
   <div class="container">
-    <div class="section-label">Stories</div>
+    <div class="section-label">Blogs</div>
     <h1 class="section-title">{{ cat.name }}</h1>
     <p class="section-desc">{{ cat.description }}</p>
   </div>
@@ -32,7 +32,7 @@ eleventyComputed:
     </div>
     {% endif %}
 
-    {% set catStories = collections.stories | reverse | filterByCategory(cat.slug) %}
+    {% set catStories = collections.blogs | reverse | filterByCategory(cat.slug) %}
 
     {% if catStories | length %}
     <div class="stories-grid">
@@ -53,14 +53,14 @@ eleventyComputed:
             <div class="story-date">{{ story.date | dateFormat }}</div>
             <h3 class="story-title">{{ story.data.title }}</h3>
             <p class="story-excerpt">{{ story.data.excerpt }}</p>
-            <span class="story-read-more">Read Story</span>
+            <span class="story-read-more">Read Blog</span>
           </div>
         </a>
       {% endfor %}
     </div>
     {% else %}
     <div class="empty-state">
-      <p>No stories in this category yet. Check back soon!</p>
+      <p>No blogs in this category yet. Check back soon!</p>
     </div>
     {% endif %}
 

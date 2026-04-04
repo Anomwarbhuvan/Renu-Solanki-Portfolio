@@ -10,7 +10,7 @@ permalink: /
   <p class="hero-description">
     A storyteller by heart and a writer by trade. Exploring the power of language, sharing creative journeys, and inspiring the art of writing.
   </p>
-  <a href="/blog/" class="btn-primary">Explore Stories</a>
+  <a href="/blog/" class="btn-primary">Explore Blogs</a>
   <div class="hero-scroll">
     <span>Scroll</span>
     <div class="hero-scroll-line"></div>
@@ -19,12 +19,12 @@ permalink: /
 
 <section class="stories" style="background: var(--white);">
   <div class="container">
-    <div class="section-label">Featured Stories</div>
+    <div class="section-label">Featured Blogs</div>
     <h2 class="section-title">Words That Linger</h2>
     <p class="section-desc">A collection of stories, reflections, and explorations penned with love and curiosity.</p>
 
     <div class="stories-grid">
-      {% for story in collections.stories | reverse | limit(6) %}
+      {% for story in collections.blogs | reverse | limit(6) %}
         {% set grad = story.data.gradient if story.data.gradient else ((loop.index0 % 6) + 1) %}
         <a href="{{ story.url }}" class="story-card" data-category="{{ story.data.category }}">
           <div class="story-thumb story-thumb-gradient-{{ grad }}">
@@ -35,14 +35,14 @@ permalink: /
             <div class="story-date">{{ story.date | dateFormat }}</div>
             <h3 class="story-title">{{ story.data.title }}</h3>
             <p class="story-excerpt">{{ story.data.excerpt }}</p>
-            <span class="story-read-more">Read Story</span>
+            <span class="story-read-more">Read Blog</span>
           </div>
         </a>
       {% endfor %}
     </div>
 
     <div style="text-align: center; margin-top: 56px;">
-      <a href="/blog/" class="btn-outline">View All Stories</a>
+      <a href="/blog/" class="btn-outline">View All Blogs</a>
     </div>
   </div>
 </section>

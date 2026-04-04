@@ -1,14 +1,14 @@
 ---
 layout: base.njk
-title: "Stories"
-description: "Browse all stories and writings by Renu Solanki. Fiction, reflections, and explorations."
+title: "Blogs"
+description: "Browse all blogs and writings by Renu Solanki. Fiction, reflections, and explorations."
 permalink: /blog/
 ---
 
 <div class="page-header" style="border-bottom: none;">
   <div class="container">
     <div class="section-label">The Archive</div>
-    <h1 class="section-title">All Stories</h1>
+    <h1 class="section-title">All Blogs</h1>
     <p class="section-desc">Every word, every story, every reflection — collected in one place.</p>
   </div>
 </div>
@@ -18,7 +18,7 @@ permalink: /blog/
 <section class="blog-section">
   <div class="container">
     <div class="stories-grid">
-      {% for story in collections.stories | reverse %}
+      {% for story in collections.blogs | reverse %}
         {% set grad = story.data.gradient if story.data.gradient else ((loop.index0 % 6) + 1) %}
         <a href="{{ story.url }}" class="story-card" data-category="{{ story.data.category }}">
           <div class="story-thumb story-thumb-gradient-{{ grad }}">
@@ -29,7 +29,7 @@ permalink: /blog/
             <div class="story-date">{{ story.date | dateFormat }}</div>
             <h3 class="story-title">{{ story.data.title }}</h3>
             <p class="story-excerpt">{{ story.data.excerpt }}</p>
-            <span class="story-read-more">Read Story</span>
+            <span class="story-read-more">Read Blog</span>
           </div>
         </a>
       {% endfor %}

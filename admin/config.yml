@@ -7,9 +7,9 @@ media_folder: "src/images"
 public_folder: "/images"
 
 collections:
-  - name: "stories"
-    label: "Stories"
-    folder: "src/stories"
+  - name: "blogs"
+    label: "Blogs"
+    folder: "src/blogs"
     create: true
     slug: "{{slug}}"
     fields:
@@ -58,25 +58,25 @@ collections:
       - label: "Excerpt"
         name: "excerpt"
         widget: "text"
-        hint: "Short description shown on story cards (1–2 sentences)"
+        hint: "Short description shown on blog cards (1–2 sentences)"
 
       - label: "Subtitle"
         name: "subtitle"
         widget: "string"
         required: false
-        hint: "Shown in italic below the title on the story page"
+        hint: "Shown in italic below the title on the blog page"
 
       - label: "Card Icon (emoji)"
         name: "icon"
         widget: "string"
         default: "✍️"
-        hint: "Emoji shown on the story card thumbnail (e.g. ✍️ ❤️ 🤖 ✨)"
+        hint: "Emoji shown on the blog card thumbnail (e.g. ✍️ ❤️ 🤖 ✨)"
 
       - label: "Card Gradient"
         name: "gradient"
         widget: "select"
         default: "1"
-        hint: "Background colour of the story card thumbnail"
+        hint: "Background colour of the blog card thumbnail"
         options:
           - { label: "Lilac",        value: "1" }
           - { label: "Sky Blue",     value: "2" }
