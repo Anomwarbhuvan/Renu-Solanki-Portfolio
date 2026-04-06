@@ -1,5 +1,5 @@
 ---
-title: 10 Must-Visit Buddhist Monasteries in Ladakh, India
+title: 10 Must-Visit Buddhist Monasteries in Ladakh
 date: 2026-04-06
 category: travel-lifestyle
 excerpt: Buddhism found its roots in ancient India, eventually flourishing in
