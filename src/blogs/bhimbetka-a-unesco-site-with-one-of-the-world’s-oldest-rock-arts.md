@@ -2,10 +2,11 @@
 title: Bhimbetka | A UNESCO Site with One of The World’s Oldest Rock Arts
 date: 2026-04-06
 category: culture-tradition
+thumbnail: /images/bhimbetka.jpeg
 excerpt: The Bhimbetka rock shelters, a UNESCO World Heritage Site in Madhya
   Pradesh, house one of the world's largest repositories of prehistoric art.
-icon: ✍️
 gradient: "6"
+icon: ✍️
 description: >
   Explore the Bhimbetka rock shelters, a UNESCO site featuring ancient cave
   paintings that reveal the evolution of human history from the Stone Age to the
