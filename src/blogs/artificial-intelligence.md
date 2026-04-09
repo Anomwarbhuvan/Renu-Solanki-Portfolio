@@ -1,13 +1,16 @@
 ---
 title: Artificial Intelligence
 date: 2020-02-27
+thumbnail: /images/ai.jpg
+excerpt: Exploring the intersection of technology and humanity through a
+  writer's lens. Where do machines end and souls begin?
+gradient: "4"
+subtitle: Tech meets humanity
+icon: 🤖
 category: tech
 subcategory: ai
-excerpt: Exploring the intersection of technology and humanity through a writer's lens. Where do machines end and souls begin?
-subtitle: Tech meets humanity
-description: Exploring the intersection of technology and humanity — what happens when machines begin to think, and humans begin to wonder.
-icon: "🤖"
-gradient: "4"
+description: Exploring the intersection of technology and humanity — what
+  happens when machines begin to think, and humans begin to wonder.
 ---
 
 The term "artificial intelligence" conjures images of sleek robots and dystopian futures, but the reality is far more subtle and, in many ways, more fascinating. Artificial intelligence is already woven into the fabric of our daily lives. It recommends what we watch, filters what we read, and quietly shapes the decisions we make without our conscious awareness. The question is no longer whether AI will change the world. The question is whether we will notice while it happens, and whether we will have a say in how it unfolds.
