@@ -55,6 +55,12 @@ collections:
           - { label: "Romantic Stories",                  value: "romantic-stories" }
           - { label: "Literary Analysis",                 value: "literary-analysis" }
 
+      - label: "Thumbnail"
+        name: "thumbnail"
+        widget: "image"
+        required: false
+        hint: "Cover image for the blog card and hero. Upload from your desktop or paste a URL."
+
       - label: "Excerpt"
         name: "excerpt"
         widget: "text"

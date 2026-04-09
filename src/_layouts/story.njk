@@ -19,9 +19,13 @@ layout: base.njk
   </div>
 
   <div class="story-page-hero">
-    <div class="story-thumb story-thumb-gradient-{{ gradient | default("1") }}">
-      <span class="story-thumb-icon">{{ icon | default("✍️") }}</span>
-    </div>
+    {% if thumbnail %}
+      <img src="{{ thumbnail }}" alt="{{ title }}" class="story-page-hero-img">
+    {% else %}
+      <div class="story-thumb story-thumb-gradient-{{ gradient | default("1") }}">
+        <span class="story-thumb-icon">{{ icon | default("✍️") }}</span>
+      </div>
+    {% endif %}
   </div>
 
   <div class="story-page-content">

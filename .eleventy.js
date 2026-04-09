@@ -3,6 +3,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ css: "css" });
   eleventyConfig.addPassthroughCopy({ js: "js" });
   eleventyConfig.addPassthroughCopy({ admin: "admin" });
+  eleventyConfig.addPassthroughCopy({ "src/images": "images" });
 
   // Format dates: 2021-02-14 → "February 14, 2021"
   eleventyConfig.addFilter("dateFormat", function (date) {

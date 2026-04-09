@@ -27,9 +27,10 @@ permalink: /
       {% for story in collections.blogs | reverse | limit(6) %}
         {% set grad = story.data.gradient if story.data.gradient else ((loop.index0 % 6) + 1) %}
         <a href="{{ story.url }}" class="story-card" data-category="{{ story.data.category }}">
-          <div class="story-thumb story-thumb-gradient-{{ grad }}">
+          <div class="story-thumb {% if not story.data.thumbnail %}story-thumb-gradient-{{ grad }}{% endif %}">
+            {% if story.data.thumbnail %}<img src="{{ story.data.thumbnail }}" alt="{{ story.data.title }}" class="story-thumb-img">{% endif %}
             <span class="story-category">{{ story.data.category | categoryLabel(categories) }}</span>
-            <span class="story-thumb-icon">{{ story.data.icon | default("✍️") }}</span>
+            {% if not story.data.thumbnail %}<span class="story-thumb-icon">{{ story.data.icon | default("✍️") }}</span>{% endif %}
           </div>
           <div class="story-content">
             <div class="story-date">{{ story.date | dateFormat }}</div>

@@ -398,6 +398,17 @@ section {
   overflow: hidden;
 }
 
+.story-thumb-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.story-card:hover .story-thumb-img {
+  transform: scale(1.05);
+}
+
 .story-thumb-icon {
   font-size: 48px;
   opacity: 0.3;
@@ -796,6 +807,12 @@ section {
   width: 100%;
   height: 100%;
   border-radius: 0;
+}
+
+.story-page-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .story-page-content {
