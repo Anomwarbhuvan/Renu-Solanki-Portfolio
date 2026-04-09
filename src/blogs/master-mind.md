@@ -1,13 +1,16 @@
 ---
 title: Master Mind
 date: 2021-02-14
+thumbnail: /images/master-mind.jpg
+excerpt: A tale of intellect and intrigue that keeps you guessing until the very
+  end. What happens when the mind becomes both weapon and shield?
+gradient: "1"
+subtitle: A tale of intellect and strategy
+icon: ✍️
 category: fiction
 subcategory: psychological-thriller
-excerpt: A tale of intellect and intrigue that keeps you guessing until the very end. What happens when the mind becomes both weapon and shield?
-subtitle: A tale of intellect and strategy
-description: A tale of intellect and strategy where every move matters and nothing is as it seems.
-icon: "✍️"
-gradient: "1"
+description: A tale of intellect and strategy where every move matters and
+  nothing is as it seems.
 ---
 
 They called him the Master Mind, though no one could say for certain when the name first took hold. Perhaps it was after the chess tournament in Shimla, where he played twelve opponents simultaneously and lost to none. Or perhaps it was the evening at the old library, when he solved a decades-old cipher that had baffled scholars across three universities. Whatever the origin, the name stuck, and with it came a quiet reverence that followed him like a shadow through the narrow lanes of the city.
