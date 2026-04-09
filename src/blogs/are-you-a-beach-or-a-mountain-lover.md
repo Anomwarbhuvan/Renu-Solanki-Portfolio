@@ -2,11 +2,12 @@
 title: Are you a Beach or a Mountain lover?
 date: 2026-04-06
 category: travel-lifestyle
+thumbnail: /images/beachmoun.jpg
 excerpt: Whether you prefer the vibrant, social energy of the beach or the
   peaceful, quiet isolation of the mountains can reveal significant aspects of
   your personality.
-icon: ✍️
 gradient: "6"
+icon: ✍️
 description: >
   Discover if you are a beach or mountain lover by exploring how personality
   traits like social preferences and activity levels dictate your perfect travel
