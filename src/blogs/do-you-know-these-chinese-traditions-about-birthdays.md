@@ -2,10 +2,11 @@
 title: Do You Know These Chinese Traditions About Birthdays?
 date: 2026-04-06
 category: culture-tradition
+thumbnail: /images/chinese.jpg
 excerpt: Chinese birthday celebrations are deeply rooted in time-honored
   traditions and rituals that differ significantly from Western practices.
-icon: ✍️
 gradient: "1"
+icon: ✍️
 description: A Chinese birthday is an amalgamation of certain traditions and
   rituals that people to date are following. Check out this article to read more
   about Chinese birthdays.
