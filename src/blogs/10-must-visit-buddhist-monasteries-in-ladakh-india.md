@@ -2,11 +2,12 @@
 title: 10 Must-Visit Buddhist Monasteries in Ladakh
 date: 2026-04-06
 category: travel-lifestyle
+thumbnail: /images/buddha.jpg
 excerpt: Buddhism found its roots in ancient India, eventually flourishing in
   the high-altitude desert of Ladakh. During the 1st or 2nd century AD, Emperor
   Asoka ordered the spread of Lord Buddha's teachings in this region.
-icon: ✍️
 gradient: "1"
+icon: ✍️
 description: Explore the 10 must-visit Buddhist monasteries in Ladakh, India.
   From the rich heritage of Hemis Monastery to the "Moonland" terrain of
   Lamayuru, discover the ancient history, unique architecture, and spiritual
