@@ -55,11 +55,10 @@ collections:
           - { label: "Romantic Stories",                  value: "romantic-stories" }
           - { label: "Literary Analysis",                 value: "literary-analysis" }
 
-      - label: "Thumbnail"
+      - label: "Blog Thumbnail"
         name: "thumbnail"
         widget: "image"
-        required: false
-        hint: "Cover image for the blog card and hero. Upload from your desktop or paste a URL."
+        hint: "Cover image shown on the blog card and at the top of the blog page. Upload from your desktop or drag-and-drop."
 
       - label: "Excerpt"
         name: "excerpt"
@@ -71,25 +70,6 @@ collections:
         widget: "string"
         required: false
         hint: "Shown in italic below the title on the blog page"
-
-      - label: "Card Icon (emoji)"
-        name: "icon"
-        widget: "string"
-        default: "✍️"
-        hint: "Emoji shown on the blog card thumbnail (e.g. ✍️ ❤️ 🤖 ✨)"
-
-      - label: "Card Gradient"
-        name: "gradient"
-        widget: "select"
-        default: "1"
-        hint: "Background colour of the blog card thumbnail"
-        options:
-          - { label: "Lilac",        value: "1" }
-          - { label: "Sky Blue",     value: "2" }
-          - { label: "Lilac → Sky",  value: "3" }
-          - { label: "Pale Sky",     value: "4" }
-          - { label: "Pale Lilac",   value: "5" }
-          - { label: "Indigo",       value: "6" }
 
       - label: "SEO Description"
         name: "description"
