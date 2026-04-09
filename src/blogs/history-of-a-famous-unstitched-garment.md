@@ -2,11 +2,12 @@
 title: History Of A Famous Unstitched Garment
 date: 2026-04-06
 category: culture-tradition
+thumbnail: /images/saree.jpg
 excerpt: The Indian Saree is a globally recognized traditional garment
   consisting of 4 to 6 yards of unstitched cloth that gracefully covers a
   woman's body.
-icon: ✍️
 gradient: "4"
+icon: ✍️
 description: Discover the rich history and cultural significance of the Indian
   Saree, from its ancient origins in the Indus Valley to modern-day global
   fashion trends.
