@@ -2,10 +2,11 @@
 title: Why Do People From Every Culture Perform Rituals After Death?
 date: 2026-04-06
 category: culture-tradition
+thumbnail: /images/banaras.jpg
 excerpt: Death is an inevitable reality shared by every culture, yet the rituals
   followed in its wake are as diverse as the beliefs that inspire them.
-icon: ✍️
 gradient: "5"
+icon: ✍️
 description: Explore how different religions and cultures including Hinduism,
   Buddhism, and Christianity perform rituals after death to honor loved ones and
   support the grieving process.
