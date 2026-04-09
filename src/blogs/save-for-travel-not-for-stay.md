@@ -2,13 +2,14 @@
 title: SAVE FOR TRAVEL, NOT FOR STAY
 date: 2026-04-06
 category: travel-lifestyle
+thumbnail: /images/train.jpg
 excerpt: >
   Don't let high accommodation costs stop you from exploring the world and
   filling your life with experiences. By choosing affordable stays like
   homestays, you can focus your budget on travel and create memories that last a
   lifetime.
-icon: ✍️
 gradient: "1"
+icon: ✍️
 description: >
   Discover how to plan your dream vacation without overspending on luxury
   hotels. Learn practical tips for budget-friendly travel, including choosing
