@@ -2,11 +2,12 @@
 title: 10 Interesting Facts About Yakutia and Yakutsk
 date: 2026-04-06
 category: travel-lifestyle
+thumbnail: /images/yakutia.webp
 excerpt: "Yakutsk, the capital of Yakutia (also known as the Sakha Republic), is
   recognized as the coldest city on Earth, with winter temperatures plummeting
   below -70°C. "
-icon: ✍️
 gradient: "1"
+icon: ✍️
 description: Discover Yakutia and Yakutsk, the coldest inhabited places on
   Earth. Learn about the Sakha Republic's rich diamond mining industry, the
   UNESCO-listed Lena Pillars, and unique cultural traditions like the Ysyach
