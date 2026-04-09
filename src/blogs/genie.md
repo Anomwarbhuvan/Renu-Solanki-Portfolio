@@ -1,13 +1,16 @@
 ---
-title: "Genie, Can You Make Me a Kid Again!"
+title: Genie, Can You Make Me a Kid Again!
 date: 2019-12-27
+thumbnail: /images/genie.jpg
+excerpt: A whimsical wish that takes us on a journey through memory and
+  innocence. What would you ask for?
+gradient: "6"
+subtitle: A whimsical wish about childhood
+icon: ✨
 category: fiction
 subcategory: kid-fiction
-excerpt: A whimsical wish that takes us on a journey through memory and innocence. What would you ask for?
-subtitle: A whimsical wish about childhood
-description: A whimsical wish about childhood — what would you ask for if a genie granted you one more day as a child?
-icon: "✨"
-gradient: "6"
+description: A whimsical wish about childhood — what would you ask for if a
+  genie granted you one more day as a child?
 ---
 
 It happened on a lazy Sunday afternoon, the kind where time moves like honey and the world feels half-asleep. She was cleaning out the attic, sorting through boxes of things her mother had saved, report cards with careful handwriting, a pair of roller skates with one wheel missing, and a brass lamp so tarnished it looked like it had been dipped in mud. She rubbed it with the edge of her sleeve, mostly out of habit, and nearly dropped it when a curl of violet smoke rose from the spout. The genie that appeared was not what she expected. He was small, slightly pudgy, wore spectacles, and looked more like an accountant than a magical being. "One wish," he said, adjusting his glasses. "Make it count."
