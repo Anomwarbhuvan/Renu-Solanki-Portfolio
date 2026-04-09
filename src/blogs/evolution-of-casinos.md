@@ -3,12 +3,13 @@ title: Evolution of Casinos
 date: 2026-04-06
 category: tech
 subcategory: gaming-industry
+thumbnail: /images/casino.jpg
 excerpt: The evolution of casinos reflects how technology has transformed
   gambling from physical venues to immersive digital platforms. From early
   online experiments to mobile and live dealer experiences, the industry
   continues to redefine entertainment.
-icon: ✍️
 gradient: "1"
+icon: ✍️
 description: Explore the evolution of casinos from their early online origins in
   the 1990s to today’s advanced mobile and live gaming experiences, and discover
   how technology continues to reshape the global gambling industry.
