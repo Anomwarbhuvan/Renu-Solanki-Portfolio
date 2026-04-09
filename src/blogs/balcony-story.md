@@ -1,13 +1,16 @@
 ---
-title: "Balcony Story — Part 1"
+title: Balcony Story — Part 1
 date: 2020-05-04
+thumbnail: /images/balcony.jpg
+excerpt: Stories unfold in the most unexpected places, even from a quiet balcony
+  overlooking a world in pause.
+gradient: "3"
+subtitle: Stories from a quiet balcony
+icon: 🏡
 category: fiction
 subcategory: literary-analysis
-excerpt: Stories unfold in the most unexpected places, even from a quiet balcony overlooking a world in pause.
-subtitle: Stories from a quiet balcony
-description: Stories from a quiet balcony — where the world below becomes a canvas of human moments and fleeting connections.
-icon: "🏡"
-gradient: "3"
+description: Stories from a quiet balcony — where the world below becomes a
+  canvas of human moments and fleeting connections.
 ---
 
 The balcony was barely six feet wide, just enough room for a plastic chair, a small table, and a pot of tulsi that had somehow survived three monsoons. It faced east, which meant mornings arrived with an almost theatrical display of light, the sun climbing over the rooftops of the neighbouring colony, casting long golden shadows across the clotheslines and water tanks. She had lived in this flat for two years now, and in that time, the balcony had become her observatory, her theatre, her place of quiet witness to the world unfolding below.
