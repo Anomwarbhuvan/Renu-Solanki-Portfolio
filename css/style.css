@@ -122,8 +122,8 @@ a { text-decoration: none; color: inherit; }
 
 .sparkle {
   position: absolute;
-  width: 3px;
-  height: 3px;
+  width: 12px;
+  height: 12px;
   animation: sparkle 4s ease-in-out infinite;
 }
 
@@ -131,12 +131,12 @@ a { text-decoration: none; color: inherit; }
 .sparkle::after {
   content: '';
   position: absolute;
-  background: rgba(212, 166, 71, 0.4);
-  border-radius: 1px;
+  background: linear-gradient(to bottom, transparent, rgba(212, 166, 71, 0.7), transparent);
+  border-radius: 2px;
 }
 
 .sparkle::before {
-  width: 1px;
+  width: 2px;
   height: 100%;
   left: 50%;
   transform: translateX(-50%);
@@ -144,9 +144,10 @@ a { text-decoration: none; color: inherit; }
 
 .sparkle::after {
   width: 100%;
-  height: 1px;
+  height: 2px;
   top: 50%;
   transform: translateY(-50%);
+  background: linear-gradient(to right, transparent, rgba(212, 166, 71, 0.7), transparent);
 }
 
 .sparkle:nth-child(1) { top: 8%; left: 15%; animation-delay: 0s; }
@@ -171,8 +172,8 @@ a { text-decoration: none; color: inherit; }
 }
 
 @keyframes sparkle {
-  0%, 100% { opacity: 0; transform: scale(0.5); }
-  50% { opacity: 1; transform: scale(1.2); }
+  0%, 100% { opacity: 0; transform: scale(0.4) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1) rotate(45deg); }
 }
 
 /* ========== NAVIGATION ========== */
