@@ -2,12 +2,13 @@
 title: Why Introverts Love Japan and Extroverts Love Thailand?
 date: 2026-04-06
 category: travel-lifestyle
+thumbnail: /images/japan.jpg
 excerpt: Whether you are an introvert seeking the quiet harmony of Japan’s
   capsule hotels and solo dining or an extrovert looking to join the vibrant,
   daily parties and social atmosphere of Thailand, your personality plays a key
   role in choosing the perfect destination.
-icon: 🤖
 gradient: "5"
+icon: 🤖
 description: >
   Discover why Japan is a sanctuary for introverts with its solo-friendly
   culture and why Thailand is an extrovert's paradise known for its social
