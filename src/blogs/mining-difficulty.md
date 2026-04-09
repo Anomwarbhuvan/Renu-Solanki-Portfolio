@@ -1,12 +1,15 @@
 ---
 title: What Determines Mining Difficulty?
 date: 2020-02-26
-category: tech
-excerpt: Demystifying blockchain and Bitcoin mining concepts with clarity, curiosity, and a storyteller's touch.
-subtitle: Blockchain explained
-description: Demystifying blockchain mining difficulty — how networks self-regulate, and why it matters for the future of digital currency.
-icon: "⚡"
+thumbnail: /images/mining.jpg
+excerpt: Demystifying blockchain and Bitcoin mining concepts with clarity,
+  curiosity, and a storyteller's touch.
 gradient: "5"
+subtitle: Blockchain explained
+icon: ⚡
+category: tech
+description: Demystifying blockchain mining difficulty — how networks
+  self-regulate, and why it matters for the future of digital currency.
 ---
 
 If you have ever heard someone talk about Bitcoin mining and imagined people with pickaxes digging through digital rock, you are not alone. The term "mining" is a metaphor, but a surprisingly apt one. Just as gold miners expend enormous effort to extract something valuable from the earth, cryptocurrency miners expend computational power to validate transactions and earn newly created coins. But here is the twist: the difficulty of this digital mining is not fixed. It changes, automatically and regularly, based on a set of elegant rules built into the very heart of the blockchain.
