@@ -2,11 +2,12 @@
 title: Top 10 Countries for Digital Nomads
 date: 2026-04-05
 category: travel-lifestyle
+thumbnail: /images/nomads.jpg
 excerpt: "A digital nomad performs online work while traveling the world,
   enjoying benefits like flexible hours and the freedom to design their own
   lifestyle. "
-icon: ✍️
 gradient: "1"
+icon: ✍️
 description: >
   Learn what it means to be a digital nomad, the essential requirements for this
   lifestyle, and explore the top 10 countries offering specialized visas for
