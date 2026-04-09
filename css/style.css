@@ -744,14 +744,10 @@ section {
 
 .category-nav-inner {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   padding: 16px 0;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
 }
-
-.category-nav-inner::-webkit-scrollbar { display: none; }
 
 .category-nav-link {
   padding: 8px 20px;
