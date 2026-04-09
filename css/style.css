@@ -7,8 +7,8 @@
 
 :root {
   --bg: #0D0D0D;
-  --surface: #161616;
-  --white: #161616;
+  --surface: #131313;
+  --white: #0D0D0D;
   --text: #F2EDE4;
   --text-light: #8A8078;
   --secondary: #2A2A2A;
@@ -601,7 +601,7 @@ section {
 
 /* ========== NEWSLETTER ========== */
 .newsletter {
-  background: var(--surface);
+  background: var(--bg);
   text-align: center;
 }
 
@@ -735,7 +735,7 @@ section {
 
 /* ========== CATEGORY NAVIGATION ========== */
 .category-nav {
-  background: var(--surface);
+  background: var(--bg);
   border-bottom: 1px solid var(--secondary);
   position: sticky;
   top: var(--nav-height);
@@ -773,7 +773,7 @@ section {
 }
 
 /* ========== BLOG PAGE ========== */
-.blog-section { background: var(--surface); }
+.blog-section { background: var(--bg); }
 
 .blog-filters {
   display: flex;
