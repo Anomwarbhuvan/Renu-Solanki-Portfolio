@@ -1,13 +1,16 @@
 ---
-title: "Her Happy Ending!"
+title: Her Happy Ending!
 date: 2020-06-01
+thumbnail: /images/happy.jpg
+excerpt: Sometimes the endings we don't expect become the ones we treasure most.
+  A story about finding joy in unexpected places.
+gradient: "2"
+subtitle: Finding joy in unexpected places
+icon: ❤️
 category: fiction
 subcategory: romantic-stories
-excerpt: Sometimes the endings we don't expect become the ones we treasure most. A story about finding joy in unexpected places.
-subtitle: Finding joy in unexpected places
-description: Finding joy in unexpected places — a story about the endings we don't plan but treasure forever.
-icon: "❤️"
-gradient: "2"
+description: Finding joy in unexpected places — a story about the endings we
+  don't plan but treasure forever.
 ---
 
 She had always believed that happy endings were reserved for fairy tales and Bollywood films, the kind of stories where everything wraps up neatly in the final act with music swelling in the background. Life, she had learned, was messier than that. The job she had dreamed of went to someone else. The city she loved became too expensive to stay in. The relationship she had built with such care dissolved quietly, like sugar in rain. By the time she turned thirty, she had stopped waiting for the grand finale altogether.
