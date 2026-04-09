@@ -2,12 +2,13 @@
 title: Top 5 Hill Stations in India to Visit this Winter
 date: 2026-04-06
 category: travel-lifestyle
+thumbnail: /images/hill.jpg
 excerpt: Explore India's winter wonderland with this guide to its top five snowy
   escapes. From the world-class ski slopes of Gulmarg and Auli to the unique
   igloo stays in Sethan Valley, these destinations offer breathtaking Himalayan
   views and thrilling adventure sports.
-icon: ✍️
 gradient: "4"
+icon: ✍️
 description: >
   Discover the top 5 hill stations in India for a perfect winter getaway,
   featuring must-visit spots like Gulmarg and Auli. Learn about the best times
