@@ -3,10 +3,11 @@ title: Why Are WordPress Websites a Popular Target for Hackers?
 date: 2026-04-04
 category: tech
 subcategory: cybersecurity
+thumbnail: /images/wordpress.jpg
 excerpt: WordPress powers a huge portion of the web, making it a high-value
   target for hackers seeking scale and easy wins.
-icon: ✍️
 gradient: "1"
+icon: ✍️
 description: Learn why WordPress websites are a prime target for hackers, from
   their massive popularity to common security gaps like weak passwords, outdated
   plugins, and insecure hosting.
