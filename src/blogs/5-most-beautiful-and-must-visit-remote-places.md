@@ -2,12 +2,13 @@
 title: 5 Most Beautiful and Must-Visit Remote Places
 date: 2026-04-06
 category: travel-lifestyle
+thumbnail: /images/tourist.jpg
 excerpt: |-
   Are you bored of traveling to crowded places? If yes, then we bring to
   you some of the most beautiful and unexplored remote places to visit
   on your next vacation.
-icon: ✍️
 gradient: "1"
+icon: ✍️
 description: >-
   Are you bored of traveling to crowded places? If yes, then we bring to
 
