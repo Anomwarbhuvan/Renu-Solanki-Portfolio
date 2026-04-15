@@ -3,15 +3,8 @@ title: Why Sunscreen Should Be a Non-Negotiable Part of Your Skincare Routine!
 date: 2026-04-11
 category: travel-lifestyle
 thumbnail: /images/sunscreen.avif
-excerpt: Sunscreen is no longer just a seasonal skincare product; it has become
-  an everyday essential for maintaining healthy, glowing skin. Acting as a
-  protective shield against harmful UVA and UVB rays, sunscreen helps prevent
-  premature aging, sunburn, hyperpigmentation, and even reduces the risk of skin
-  cancer. With consistent use and the right formulation suited to your skin
-  type, sunscreen not only preserves your skin’s natural radiance but also
-  strengthens its barrier and hydration. Simply put, making sunscreen a daily
-  habit is one of the most effective ways to protect and invest in your skin’s
-  long-term health.
+excerpt: "Sunscreen is no longer just a seasonal skincare product; it has become
+  an everyday essential for maintaining healthy, glowing skin. "
 ---
 Gone are the days when sunscreen was only for summer, it has now become an essential
 
