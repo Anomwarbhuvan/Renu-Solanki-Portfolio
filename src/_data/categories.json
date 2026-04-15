@@ -67,5 +67,11 @@
     "slug": "personal-reflection",
     "description": "Thoughts, musings, and lessons from the journey within.",
     "subcategories": []
+  },
+  {
+    "name": "Beauty & Skincare",
+    "slug": "beauty-skincare",
+    "description": "Tips, routines, and honest reviews on beauty and skincare.",
+    "subcategories": []
   }
 ]

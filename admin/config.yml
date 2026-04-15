@@ -38,6 +38,7 @@ collections:
           - { label: "Gastronomy",              value: "gastronomy" }
           - { label: "Culture & Tradition",     value: "culture-tradition" }
           - { label: "Personal Reflection",     value: "personal-reflection" }
+          - { label: "Beauty & Skincare",      value: "beauty-skincare" }
 
       - label: "Sub-category"
         name: "subcategory"
