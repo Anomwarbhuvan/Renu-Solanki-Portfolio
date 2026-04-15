@@ -1,6 +1,5 @@
 ---
-title: "Year-End Review Funding and IPOs: US IPO Dominance, AI Funding Surge,
-  and Global Trends"
+title: "Year-End Review: US IPO Dominance, AI Funding Boom & Shifting Global Trends"
 date: 2026-04-15
 category: tech
 thumbnail: /images/year.jpg
