@@ -6,8 +6,7 @@ category: tech
 thumbnail: /images/year.jpg
 excerpt: The 2025 global capital markets saw a powerful resurgence led by the
   United States, which captured US$53 billion in IPO proceeds across 344
-  listings, marking a 56% surge in volume driven by AI infrastructure and
-  enterprise SaaS.
+  listings
 description: Explore the 2025 Year-End Review of funding and IPOs, highlighting
   US market dominance with US$53B raised, a massive AI funding surge of
   US$89.4B, and key global trends across India, China, and the Middle East.
