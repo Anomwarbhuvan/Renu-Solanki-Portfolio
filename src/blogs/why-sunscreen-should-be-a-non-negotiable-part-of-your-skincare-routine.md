@@ -1,7 +1,7 @@
 ---
 title: Why Sunscreen Should Be a Non-Negotiable Part of Your Skincare Routine!
 date: 2026-04-11
-category: travel-lifestyle
+category: beauty-skincare
 thumbnail: /images/sunscreen.avif
 excerpt: "Sunscreen is no longer just a seasonal skincare product; it has become
   an everyday essential for maintaining healthy, glowing skin. "
